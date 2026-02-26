@@ -32,3 +32,7 @@ flowchart TD
 
 - [canvas-fireworks](https://github.com/lukecassidy/canvas-fireworks)
 - [canvas-digital-rain](https://github.com/lukecassidy/canvas-digital-rain)
+
+---
+
+![banner](https://github.com/user-attachments/assets/cd42799d-5098-45dc-aa0b-541ecc787bfc)
