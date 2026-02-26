@@ -1,4 +1,4 @@
-# canvas-boilerplate
+# canvas-template
 
 A starting point for canvas animation projects. Clone it, open `canvas.html` in a browser, and start tweaking — no build tools needed.
 
@@ -28,7 +28,7 @@ flowchart TD
     L --> G
 ```
 
-## Projects using this boilerplate
+## Projects using this template
 
 - [canvas-fireworks](https://github.com/lukecassidy/canvas-fireworks)
 - [canvas-digital-rain](https://github.com/lukecassidy/canvas-digital-rain)

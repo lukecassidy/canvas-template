@@ -25,7 +25,7 @@
 // ---------------------------------------------------------------------------
 
 const CONFIG = Object.freeze({
-    CANVAS_ID: 'canvas-boilerplate',
+    CANVAS_ID: 'canvas-template',
     TIME_STEP: 16,          // ms between updates (~60fps). Bump this up to slow things down.
     PARTICLE_COUNT: 50,     // How many particles to spawn on load.
     PARTICLE: {
