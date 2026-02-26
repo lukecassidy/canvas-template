@@ -19,7 +19,7 @@ flowchart TD
     E --> F[Loop.start]
 
     F --> G[requestAnimFrame]
-    G --> H{enough time\npassed?}
+    G --> H{enough time passed?}
     H -- no --> G
     H -- yes --> I[Scene.update]
     I --> J[Entity.update × n]
