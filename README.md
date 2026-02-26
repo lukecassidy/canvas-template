@@ -28,27 +28,6 @@ flowchart TD
     L --> G
 ```
 
-## Customisation
-
-| What to change      | Where                                                              |
-| ------------------- | ------------------------------------------------------------------ |
-| Canvas size         | `canvas.html` — `width` / `height` on the `<canvas>` element       |
-| Update rate         | `CONFIG.TIME_STEP` — milliseconds between updates (lower = faster) |
-| Entity count        | `CONFIG.PARTICLE_COUNT`                                            |
-| Entity size / speed | `CONFIG.PARTICLE`                                                  |
-| Trail fade speed    | `CONFIG.COLOURS.BACKGROUND` alpha — lower = longer trails          |
-| Entity behaviour    | `Particle` class — `update()` and `draw()`                         |
-| Scene behaviour     | `Scene` class — spawning, removal, inter-entity logic              |
-
-## Class reference
-
-| Class      | Responsibility                                                                                                              |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------- |
-| `Particle` | A single animated element. Rename this to suit your effect (e.g. `Firework`, `RainStream`).                                 |
-| `Scene`    | Owns all the entities — creates, updates, and draws them each frame. Rename it too (e.g. `FireworksScene`).                 |
-| `Loop`     | Fixed-timestep animation loop. You shouldn't need to touch this — just pass it a `Scene` with `update()` and `draw()`.     |
-| `Helper`   | Static utility methods (`random`, `getRandomColour`). Chuck any pure helpers in here.                                       |
-
 ## Projects using this boilerplate
 
 - [canvas-fireworks](https://github.com/lukecassidy/canvas-fireworks)
